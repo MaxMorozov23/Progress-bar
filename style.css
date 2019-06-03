@@ -5,3 +5,7 @@
 .progress {
   top: 0;
 }
+
+.button.select-branch {
+  height: 50px;
+}
