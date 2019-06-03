@@ -6,11 +6,92 @@
   top: 0;
 }
 
-.button.select-branch {
-  height: 50px;
-}
-
-.widget-header .header-box h1 {
-  font-size: 2em !important;
-  color: green;
-}
+     /* some custom styles */
+     
+     #packeta-widget {
+         display: none;
+         border: hidden;
+         height: 600px;
+     }
+     /* Custom, iPhone Retina */
+     
+     @media only screen and (min-width: 320px) {
+         #packeta-widget {
+             width: 320px;
+         }
+     }
+     /* Extra Small Devices, Phones */
+     
+     @media only screen and (min-width: 480px) {
+         #packeta-widget {
+             width: 480px;
+         }
+     }
+     /* Small Devices, Tablets */
+     
+     @media only screen and (min-width: 768px) {
+         #packeta-widget {
+             width: 768px;
+         }
+     }
+     /* Medium Devices, Desktops */
+     
+     @media only screen and (min-width: 992px) {
+         #packeta-widget {
+             width: 992px;
+         }
+     }
+     /* Large Devices, Wide Screens */
+     
+     @media only screen and (min-width: 1200px) {
+         #packeta-widget {
+             width: 1200px;
+         }
+     }
+     
+     .widget-wrapper {
+         color: #792c00 !important;
+         font-family: "Arial", "Verdana CE", Verdana, sans-serif !important;
+         background-color: #FFFAE7 !important;
+         border: 1px solid #7C3900;
+         border-radius: 5px;
+     }
+     
+     .button.select-branch,
+     .button.unbusy-branch {
+         background-color: #52ad0e !important;
+         border-color: #47950c;
+         border-radius: 5px;
+         font-size: 14px;
+     }
+     
+     .button.select-branch:hover {
+         background-color: #3c7e0a !important;
+         border-color: #2c5d08;
+     }
+     
+     .branch-list-row .recommend-message {
+         background-color: #52ad0e;
+     }
+     
+     .branch-list-item {
+         transition: .3s;
+     }
+     
+     .branch-list-item.selected,
+     .branch-list-item:hover {
+         background-color: #7C3900;
+         color: #fff;
+     }
+     
+     .branch-list-item {
+         border-bottom: 1px solid #7C3900;
+     }
+     
+     .main-info-box {
+         border-bottom: 1px solid #7C3900;
+     }
+     
+     .main-info-box .left-address-box {
+         border-right: 1px solid #7C3900;
+     }
